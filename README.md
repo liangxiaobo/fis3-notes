@@ -1,7 +1,5 @@
 # fis3-notes
 
-[toc]
-
 Fis3是百度团队推荐的Fis第三个版本，和**webpack**一样都需要 *node.js*环境的支持。Fis3的**资源定位**非常棒，它能在编译文件的时候，自动将html、css、中的url转换为对应的资源绝对路径.
 
 **知乎上有一篇关于FIS与webpack的区别的文章 ** [https://www.zhihu.com/question/50829160](https://www.zhihu.com/question/50829160)
