@@ -263,7 +263,7 @@ match('**.{gif,jpg,png,ico}', {
  */
 
 
-
+// 下面是替换部分的配置 fis3 release release_vm -d ./
 
 fis.media(media_key_release_vm).match('*.vm', {
   deploy: [
@@ -283,8 +283,8 @@ fis.media(media_key_release_vm).match('*.vm', {
   ]
 });
 ```
-关于**fis.set()**看F.I.S官网 [http://fis.baidu.com/fis3/docs/api/config-api.html](http://fis.baidu.com/fis3/docs/api/config-api.html)
-最后的**fis-conf.js** 需要执行两次才能完成处理:
+关于 **fis.set()** 看F.I.S官网 [http://fis.baidu.com/fis3/docs/api/config-api.html](http://fis.baidu.com/fis3/docs/api/config-api.html)
+最后的 **fis-conf.js** 需要执行两次才能完成处理:
 
 ```bash
 # 先执行
